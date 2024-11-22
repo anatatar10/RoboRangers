@@ -71,7 +71,7 @@ def find_and_circle_object(img):
 
     return img
 
-if __name__ == "__main__":  # Corrected main check
+if __name__ == "__main__": 
     rospy.init_node(ROS_NODE_NAME, log_level=rospy.INFO)
     rospy.on_shutdown(cleanup)
 
